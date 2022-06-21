@@ -11,7 +11,7 @@ export const Header = () => {
           <Hand />
         </div>
       </div>
-      <div className="w-full mt-[150px] lg:text-[64px] text-[40px] lg:ml-60 ml-[25px] font-fragile ">
+      <div className="w-full lg:mt-[150px] mt-[90px]  lg:text-[64px] text-[40px] lg:ml-60 px-[25px] font-fragile ">
         <h1>
           This is{" "}
           <span className="underline decoration-[#FF5C00]">Fragile studio</span>
