@@ -52,16 +52,32 @@ export const Drawer = ({
                       <h2 className="text-[12px] uppercase mb-2">
                         FOR COLLABORATION
                       </h2>
-                      <h3 className="text-[16px]">project@fragile.studio</h3>
+                      <h3 className="text-[16px]">
+                        <a href="mailto:project@fragile.studio">
+                          project@fragile.studio
+                        </a>
+                      </h3>
                       <h2 className="text-[12px] uppercase mt-[60px] mb-2">
                         FOR INTERNSHIP
                       </h2>
-                      <h3 className="text-[16px]">coffee@fragile.studio</h3>
+                      <h3 className="text-[16px]">
+                        <a href="mailto:coffee@fragile.studio">
+                          coffee@fragile.studio
+                        </a>
+                      </h3>
                       <h2 className="text-[12px] uppercase mt-[60px] mb-2">
                         FOR HIGH FIVE
                       </h2>
-                      <h3 className="text-[16px]">charles@fragile.studio</h3>
-                      <h3 className="text-[16px]">david@fragile.studio</h3>
+                      <h3 className="text-[16px]">
+                        <a href="mailto:charles@fragile.studio">
+                          charles@fragile.studio
+                        </a>
+                      </h3>
+                      <h3 className="text-[16px]">
+                        <a href="mailto:david@fragile.studio">
+                          david@fragile.studio
+                        </a>
+                      </h3>
                     </div>
                   </div>
                 </Dialog.Panel>
