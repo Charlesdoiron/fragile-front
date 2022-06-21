@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Header } from "components/header";
 import { Footer } from "components/footer";
 import { Table } from "components/table";
+import { TableMobile } from "components/table-mobile";
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Table />
+      <div className="hidden md:block">
+        <Table />
+      </div>
+      <div className="block md:hidden">
+        <TableMobile />
+      </div>
       <Footer />
     </div>
   );

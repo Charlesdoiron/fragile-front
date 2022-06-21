@@ -6,10 +6,7 @@ import { Gallery } from "./gallery";
 
 const th = [
   { title: "Client", showOnMobile: true },
-  { title: "Project" },
-  { title: "Type" },
   { title: "Expertises", showOnMobile: true },
-  { title: "Notes" },
 ];
 const data = [
   {
@@ -43,7 +40,7 @@ const data = [
   },
 ];
 
-export const Table = () => {
+export const TableMobile = () => {
   const router = useRouter();
   const [query, setQuery] = useState("");
 
@@ -72,9 +69,7 @@ export const Table = () => {
                   key={item.title}
                   className={`font-bold text-left pb-3 text-[12px] ${
                     idx === 0 ? "lg:px-[60px] px-[25px]" : ""
-                  }
-                  ${item.showOnMobile ? "" : "invisible md:visible"}
-                  `}
+                  }`}
                 >
                   {item.title}
                 </th>
@@ -92,10 +87,7 @@ export const Table = () => {
                     className="border-b border-black h-12 font-light hover:bg-black cursor-pointer hover:text-white text-[14px] transition-all ease-in-out "
                   >
                     <td className="p-0 lg:pl-[60px] pl-[25px] ">{client}</td>
-                    <td className="p-0 invisible md:visible">{project}</td>
-                    <td className="p-0 invisible md:visible ">{type}</td>
                     <td className="p-0">{expertises}</td>
-                    <td className="p-0 invisible md:visible">{notes}</td>
                     <td className="lg:pr-[60px] pr-[25px] flex justify-end h-12 items-center p-0">
                       {<Eye />}
                     </td>
