@@ -2,7 +2,7 @@ import Image from "next/image";
 import Mock from "assets/mock.jpg";
 import Mock2 from "assets/mock2.jpg";
 
-export const Gallery = ({ isOpen = false }: { isOpen: boolean }) => {
+export const GalleryMobile = ({ isOpen = false }: { isOpen: boolean }) => {
   return (
     <div
       className={`bg-black p-0  w-full flex   ${
@@ -12,7 +12,7 @@ export const Gallery = ({ isOpen = false }: { isOpen: boolean }) => {
       <div
         className={` flex ${
           isOpen
-            ? "opacity-1 duration-[1500ms] translate-y-0 ease-in-out"
+            ? "opacity-1 duration-[800ms] translate-y-0 ease-in-out"
             : "opacity-0 duration-[100ms] -translate-y-1  ease-in-out"
         }  `}
       >

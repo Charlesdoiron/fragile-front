@@ -2,10 +2,11 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Header } from "components/header";
 // import { Footer } from "components/footer";
-import { Table } from "components/table";
-import { TableMobile } from "components/table-mobile";
+import { TableMobile } from "components/mobile/table-mobile";
 import { Drawer } from "components/drawer";
 import { useState } from "react";
+import { Table } from "components/table";
+import { Footer } from "components/footer";
 
 const Home: NextPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ const Home: NextPage = () => {
       <div className="block md:hidden">
         <TableMobile />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

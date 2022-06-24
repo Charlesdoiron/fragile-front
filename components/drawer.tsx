@@ -37,7 +37,7 @@ export const Drawer = ({
                       <div className="flex items-start justify-end">
                         <div className="ml-3 flex h-7 items-center">
                           <button type="button" onClick={handleDrawer}>
-                            <span className="underline text-white outline-0">
+                            <span className="underline text-white focus:outline-0 focus:ring-0">
                               No thanks !
                             </span>
                           </button>
