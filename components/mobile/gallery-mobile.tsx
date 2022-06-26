@@ -12,7 +12,7 @@ export const GalleryMobile = ({ isOpen = false }: { isOpen: boolean }) => {
       <div
         className={` flex snap-x mx-auto snap-mandatory   w-screen overflow-scroll ${
           isOpen
-            ? "opacity-1 duration-[800ms] translate-y-0 ease-in-out h-[250px]"
+            ? "opacity-1 duration-[800ms] translate-y-0 ease-in-out "
             : "opacity-0 duration-[100ms] -translate-y-1  ease-in-out "
         }  `}
       >
