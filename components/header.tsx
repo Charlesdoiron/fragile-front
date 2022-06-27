@@ -3,7 +3,7 @@ import Hand from "assets/hand.svg";
 
 export const Header = ({ handleDrawer }: { handleDrawer: () => void }) => {
   return (
-    <div>
+    <div className="w-full overflow-hidden">
       <div className="bg-white w-full md:h-[45px] h-[20px] top-0 z-10 relative "></div>
       <div className="lg:px-[52px] px-[25px] flex justify-between w-full">
         <Logo />

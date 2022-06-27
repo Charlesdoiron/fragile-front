@@ -59,7 +59,7 @@ export const Rows = () => {
         return (
           <>
             <div
-              className={`flex w-full border-b border-t-0 border-black items-center min-h-[80px] pl-5 text-[14px] hover:bg-black cursor-pointer hover:text-white transition-all ease-in  duration-200
+              className={`flex w-full border-b border-t-0 border-black items-center min-h-[60px] pl-5 text-[14px] hover:bg-black cursor-pointer hover:text-white transition-all ease-in  duration-200
           ${query === slug ? "bg-black text-white" : ""}`}
               key={id}
               onClick={() => handleSelect(slug)}
