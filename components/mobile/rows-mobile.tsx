@@ -4,38 +4,7 @@ import EyeClosed from "assets/eye-closed.svg";
 import { useRouter } from "next/dist/client/router";
 import { useEffect, useState } from "react";
 import { GalleryMobile } from "./gallery-mobile";
-
-const data = [
-  {
-    client: "Bigmamma",
-    project:
-      "Rebuilding Bigmamma’s menus. Automatic website and pdf generation",
-    type: "Website & services",
-    expertises: "Full-stack",
-    notes: "NodeJS | Strapi  |  React | Heroku | Postgres",
-    id: "1",
-    slug: "bigmamma_menu",
-  },
-  {
-    client: "Assistance publique hopitaux de Paris",
-    project: "Building a platform for researchers",
-    type: "Website & services",
-    expertises: "Design + front-end",
-    notes: "NodeJS - Strapi - React - Heroku UX - UI",
-    id: "2",
-    slug: "process",
-  },
-  {
-    client: "France messagerie",
-    project:
-      "Design of the first website for the leader in press distribution in France",
-    type: "Website ",
-    expertises: "Design",
-    notes: "Design | UX - UI",
-    id: "3",
-    slug: "france-messagerie",
-  },
-];
+import { data } from "components/rows";
 
 export const RowsMobile = () => {
   const router = useRouter();

@@ -7,6 +7,7 @@ import { Drawer } from "components/drawer";
 import { useState } from "react";
 import { Table } from "components/table";
 import { Footer } from "components/footer";
+import { Logos } from "components/logos";
 
 const Home: NextPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header handleDrawer={() => setIsOpen(!isOpen)} />
+      {/* <Logos /> */}
       <div className="hidden md:block">
         <Table />
       </div>

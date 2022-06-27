@@ -5,7 +5,35 @@ import { useRouter } from "next/dist/client/router";
 import { useEffect, useState } from "react";
 import { Gallery } from "./gallery";
 
-const data = [
+export const data = [
+  {
+    client: "Assistance publique hopitaux de Paris",
+    project: "Building a platform for researchers",
+    type: "Website & services",
+    expertises: "Design + front-end",
+    notes: "NodeJS - Strapi - React - Heroku UX - UI",
+    id: "2",
+    slug: "process",
+  },
+  {
+    client: "Jeux Olympique de Paris 2024",
+    project: "Building special platform for the game",
+    type: "Website",
+    expertises: "Code | Design",
+    notes: "React | Salesforce",
+    id: "5",
+    slug: "paris-2024",
+  },
+  {
+    client: "France messagerie",
+    project:
+      "Design of the first website for the leader in press distribution in France",
+    type: "Website ",
+    expertises: "Design",
+    notes: "Design | UX - UI",
+    id: "3",
+    slug: "france-messagerie",
+  },
   {
     client: "Bigmamma",
     project:
@@ -17,23 +45,78 @@ const data = [
     slug: "bigmamma_menu",
   },
   {
-    client: "Assistance publique hopitaux de Paris",
-    project: "Building a platform for researchers",
-    type: "Website & services",
-    expertises: "Design + front-end",
-    notes: "NodeJS - Strapi - React - Heroku UX - UI",
-    id: "2",
-    slug: "process",
+    client: "Collect for Good",
+    project: "Volunteer project to help Ukraine",
+    type: "Website",
+    expertises: "Code | Design",
+    notes: "NodeJS | React | CleverCloud",
+    id: "4",
+    slug: "collect-for-good",
+  },
+
+  {
+    client: "Ulysse",
+    project: "Building new features with the internal team",
+    type: "Website",
+    expertises: "Design",
+    notes: "NextJs | Vercel",
+    id: "5",
+    slug: "ulysse",
   },
   {
-    client: "France messagerie",
-    project:
-      "Design of the first website for the leader in press distribution in France",
-    type: "Website ",
+    client: "Murfy",
+    project: "Building new features with the internal team",
+    type: "Website",
     expertises: "Design",
-    notes: "Design | UX - UI",
-    id: "3",
-    slug: "france-messagerie",
+    notes: "NextJs | Vercel",
+    id: "5",
+    slug: "murfy",
+  },
+
+  {
+    client: "d'Orsay",
+    project: "First website for the new parisian fragrance label",
+    type: "Website",
+    expertises: "Design",
+    notes: "UX - UI",
+    id: "5",
+    slug: "d-orsay",
+  },
+  {
+    client: "MadMapper",
+    project: "Design e-commerce website for mapping software",
+    type: "Website",
+    expertises: "Design",
+    notes: "UX - UI | Illusrations",
+    id: "5",
+    slug: "madmapper",
+  },
+  {
+    client: "Showtime",
+    project: "Web application for theater movie",
+    type: "Website",
+    expertises: "Design + code",
+    notes: "React | Strapi ",
+    id: "5",
+    slug: "showtimes",
+  },
+  {
+    client: "Societer",
+    project: "Website for societer agency",
+    type: "Website",
+    expertises: "Design + code",
+    notes: "React | Strapi ",
+    id: "5",
+    slug: "societer",
+  },
+  {
+    client: "CNRS - Nuclear physics and particle physics",
+    project: "Building new features and improvements",
+    type: "Website",
+    expertises: "code",
+    notes: "Gatsby",
+    id: "5",
+    slug: "cnrs",
   },
 ];
 
